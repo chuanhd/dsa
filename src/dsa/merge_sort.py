@@ -1,3 +1,13 @@
+# Merge Sort Algorithm
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+# Stable Sort
+# Divide and Conquer Algorithm
+# Steps:
+# 1. Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
+# 2. Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list
+# Reference: https://en.wikipedia.org/wiki/Merge_sort
+
 def merge_sort(nums: list[int], left: int, right: int):
   if left >= right:
     return nums

@@ -1,3 +1,13 @@
+# Quick Sort Algorithm
+# Time Complexity: O(n log n) on average, O(n^2) in the worst case
+# Space Complexity: O(log n) due to recursion stack
+# Not a Stable Sort
+# Divide and Conquer Algorithm
+# Steps:
+# 1. Choose a pivot element from the array.
+# 2. Partition the array into two sub-arrays: elements less than the pivot and elements greater than the pivot.
+# 3. Recursively apply the above steps to the sub-arrays.
+# Reference: https://en.wikipedia.org/wiki/Quicksort
 def quick_sort(nums: list[int], left: int, right: int) -> list[int]:
   if left >= right:
     return nums
