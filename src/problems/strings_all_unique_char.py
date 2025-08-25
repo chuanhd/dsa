@@ -1,4 +1,4 @@
-# Implement an algorithm to determine if a string has all unique characters wihhout using additional data structures.
+# Implement an algorithm to determine if a string has all unique characters without using additional data structures.
 
 # Complexity: O(n^2) time, O(1) space
 # where n is the length of the string.
