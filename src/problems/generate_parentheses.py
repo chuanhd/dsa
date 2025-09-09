@@ -1,4 +1,3 @@
-# Implement algorithm to generate all valid parentheses string 
 class Solution:
     def generateParentheses(self, n: int) -> List[str]:
         stack = []
@@ -19,7 +18,7 @@ class Solution:
                 backtrack(openN, closeN + 1)
                 stack.pop()
 
-        
+
         backtrack(0, 0)
 
         return res
